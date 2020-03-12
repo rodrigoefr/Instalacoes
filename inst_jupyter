@@ -11,6 +11,7 @@ bash Anaconda(..).sh
 download
 
 pip install toree-(...).tar.gz
+pip install toree
 
 jupyter toree install --spark_home=$SPARK_HOME --interpreters=Scala,PySpark,SQL --user
 
