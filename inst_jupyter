@@ -1,0 +1,15 @@
+--- instalar jupyter notebook
+
+- instalar anaconda
+
+download
+
+bash Anaconda(..).sh
+
+- instaladr apache toree
+
+download
+
+pip install toree-(...).tar.gz
+
+jupyter toree install --spark_home=$SPARK_HOME --interpreters=Scala,PySpark,SQL --user
