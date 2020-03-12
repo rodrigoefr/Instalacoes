@@ -18,3 +18,22 @@ jupyter toree install --spark_home=$SPARK_HOME --interpreters=Scala,PySpark,SQL 
 jupyter notebook --no-browser
 
 jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
+
+-Obs
+funcionou com scala
+porém o pyspark não apareceu
+
+
+-------- configurar pyspark em jupyter notebook
+
+https://www.sicara.ai/blog/2017-05-02-get-started-pyspark-jupyter-notebook-3-minutes
+
+Method 1 — Configure PySpark driver
+Update PySpark driver environment variables: add these lines to your ~/.bashrc (or ~/.zshrc) file.
+
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+
+Restart your terminal and launch PySpark again:
+
+$ pyspark
