@@ -13,3 +13,5 @@ download
 pip install toree-(...).tar.gz
 
 jupyter toree install --spark_home=$SPARK_HOME --interpreters=Scala,PySpark,SQL --user
+
+jupyter notebook --no-browser
