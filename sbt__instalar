@@ -1,3 +1,24 @@
 https://www.scala-sbt.org/
 
 https://www.coursera.org/learn/scala-spark-big-data/supplement/817lQ/sbt-tutorial
+
+---Running the Scala Interpreter
+
+> console
+[info] Starting scala interpreter...
+Welcome to Scala version 2.11.5 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_04-ea).
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> println("Oh, hai!")                                          # This is the Scala REPL, type some Scala code
+Oh, hai!
+
+scala> val l = List(1, 2, 3)
+l: List[Int] = List(1, 2, 3)
+
+scala> val squares = l.map(x => x * x)
+squares: List[Int] = List(1, 4, 9)
+
+scala>                                                              # Type [ctrl-d] to exit the Scala REPL
+[success] Total time: 20 s, completed Mar 21, 2013 11:02:31 AM
+>                                                                   # We're back to the sbt shell
