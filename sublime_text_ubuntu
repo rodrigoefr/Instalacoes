@@ -1,0 +1,12 @@
+https://www.edivaldobrito.com.br/editor-sublime-text-no-ubuntu/
+
+Passo 1. Abra um terminal;
+Passo 2. Instale o programa, usando esse comando:
+
+sudo snap install sublime-text-3 --classic --candidate
+Passo 4. Mais tarde, se você precisar atualizar o snap do programa, use o comando abaixo:
+
+sudo snap refresh sublime-text-3
+Passo 5. Depois, se for necessário, desinstale o programa, usando o comando abaixo;
+
+sudo snap remove sublime-text-3
